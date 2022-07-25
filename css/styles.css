@@ -1,0 +1,108 @@
+body{
+    font-family: 'Cormorant SC', serif;
+}
+
+header{
+    height: 25vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+.z1{
+    z-index: 1;
+}
+.z2{
+    z-index: 2;
+}
+.z3{
+    z-index: 3;
+}
+
+.home{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+}
+.second{
+    color: white;
+}
+.veggie{
+    width: 100%;
+    bottom: 40%;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.middle-image{
+    width: 100%;
+    height: 40vh;
+}
+
+.reviews{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-blue{
+    background-color: #03C7D5;
+}
+.bg-bluegreen{
+    background-color: #27DFD3;
+}
+.bg-yellow{
+    background-color: #FDB14E;
+}
+.bg-lightred{
+    background-color: #FE8163;
+}
+.bg-red{
+    background-color: #DE3E2E;
+}
+
+.accent-blue{
+    color: #03C7D5;
+}
+.accent-bluegreen{
+    color: #27DFD3;
+}
+.accent-yellow{
+    color: #FDB14E;
+}
+.accent-lightred{
+    color: #FE8163;
+}
+.accent-red{
+    color: #DE3E2E;
+}
+
+@media screen and (max-width: 450px) {
+    .home{
+        margin-top: 5px;
+        padding-top: 30px;
+        height: 75vh;
+        width: 100%;
+    }
+
+    .second{
+        color: black;
+    }
+
+    .veggie{
+        width: 100%;
+        bottom: 40%;
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width: 451px){
+
+    .middle-image{
+        width: 100%;
+        height: 0px;
+    }
+    
+}
+
+
